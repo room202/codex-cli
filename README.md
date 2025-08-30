@@ -1,6 +1,8 @@
 # Codex CLI
 
-[公式サイト](https://github.com/openai/codex)
+[公式サイト](https://developers.openai.com/codex/cli)
+
+[公式GitHub](https://github.com/openai/codex)
 
 ## 前提条件
 
