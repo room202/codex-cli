@@ -11,7 +11,7 @@
 ## インストール
 
 ```bash
-npm i -g @openai/codex
+npm install -g @openai/codex
 ```
 
 ## 実行
