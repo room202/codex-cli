@@ -21,3 +21,28 @@ npm install -g @openai/codex
 ```bash
 codex
 ```
+
+## MCP
+
+### 設定ファイル
+
+フォルダ : `C:\Users\%USERPROFILE%\.codex`
+
+ファイル : `config.toml`
+
+### Serena
+
+```toml
+[mcp_servers.serena]
+command = "uvx"
+args = [
+    "--from",
+    "git+https://github.com/oraios/serena",
+    "serena",
+    "start-mcp-server",
+    "--context",
+    "codex"
+]
+# 環境変数を明示
+env = { SystemRoot = "C:\\Windows", windir = "C:\\Windows" }
+```
