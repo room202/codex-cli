@@ -32,6 +32,22 @@ codex
 
 ### Serena
 
+#### 事前準備
+
+Window11
+
+```ps
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
+
+macOS
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+#### 設定内容
+
 ```toml
 [mcp_servers.serena]
 command = "uvx"
