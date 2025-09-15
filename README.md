@@ -34,6 +34,8 @@ codex
 
 #### 事前準備
 
+uv + uvx のインストール
+
 Window11
 
 ```ps
